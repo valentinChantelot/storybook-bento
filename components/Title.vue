@@ -6,7 +6,7 @@
       font2: font2
     }"
   >
-    {{ title }}
+    <slot></slot>
   </h2>
 </template>
 

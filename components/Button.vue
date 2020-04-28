@@ -7,9 +7,16 @@ export default {
   props: {
     text: String,
     isPrimary: Boolean,
-    isDisable: Boolean
+    isDisable: Boolean,
+    isBordered: Boolean,
+    color: String
   }
 };
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+
+button {
+
+}
+</style>
